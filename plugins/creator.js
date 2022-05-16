@@ -8,7 +8,7 @@ remoteJid: 'status@broadcast'
 },
 message: {
 locationMessage: {
-name: 'My Mastah',
+name: 'VERDI_Zz',
 jpegThumbnail: fs.readFileSync('./src/Dark.jpg')
   }
  }
