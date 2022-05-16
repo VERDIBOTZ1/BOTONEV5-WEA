@@ -15,16 +15,16 @@ key: {
 				"product": {
 					"productImage":{
 						"mimetype": "image/jpeg",
-						"jpegThumbnail": fs.readFileSync('./src/IMG-20220404-WA0381.png'), //Gambarnye
+						"jpegThumbnail": fs.readFileSync('./src/RadBotZ.jpg'), //Gambarnye ganti
 					},
-					"title": `Hai ${conn.getName(m.sender)}`, //Kasih namalu 
-					"description": `Nih Stikernya..`, 
-					"currencyCode": "Rp",
+					"title": `Hai ${conn.getName(m.sender)}~`, //Kasih namalu 
+					"description": `JAGAN LUPA TIDUR SYNG`, 
+					"currencyCode": "HALAL",
 					"priceAmount1000": "500000",
 					"retailerId": `ppk`,
-					"productImageCount": 999999
+					"productImageCount": 1
 				},
-				    "businessOwnerJid": `0@s.whatsapp.net`
+				    "businessOwnerJid": `628162633549@s.whatsapp.net`
 		}
 	}
 }
