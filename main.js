@@ -1,3 +1,22 @@
+Skip to content
+VERDIBOTZ1
+/
+pacrituruv3
+Public
+forked from Ipulpachri/fachribotzv3
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+pacrituruv3/main.js
+@VERDIBOTZ1
+VERDIBOTZ1 Update main.js
+ 3 contributors
+245 lines (230 sloc)  8.17 KB
 require('./config.js')
 const { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
 const cloudDBAdapter = require('./lib/cloudDBAdapter')
@@ -43,7 +62,7 @@ global.DATABASE = global.db // Backwards Compatibility
 
 global.conn = new WAConnection()
 conn.version =[2,2143,3]
-conn.browserDescription ='mau turu', 'Opera', '3.0']']
+conn.browserDescription =['ANJAY NUPANG BANG ', 'Opera', '3.0']
 let authFile = `${opts._[0] || 'OneBotZ'}.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
@@ -126,10 +145,10 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = 'Hai @user, Welcome To *@subject*\n\n@desc'
-  conn.bye = 'Yah.. @user Kok Keluar blum Di spong ayang?.. Lain Kali jagan masuk..\n_Yes.. MAAP SYA GAY 1.._'
-  conn.spromote = 'ucapkan alhamdullilah bersyukur lah @user Sekarang Admin'
-  conn.sdemote = 'anjg yang unadmin @user Sekarang Bukan Admin 🗿:v'
+  conn.welcome = 'Halo SAYANG JAN CARI RIBUT YA @user\n Welcome To *@subject*\n\n@desc'
+  conn.bye = 'Kenapa @user Keluar ?.. Kayanya Gak Di Semangatin Ayang >...<\nSayonara.. Lain Kali Jangan Balik Lagi Ya..'
+  conn.spromote = 'Waduh SI BEBAN DI REKQRUT EPOS @user Sekarang Admin'
+  conn.sdemote = 'Alhamdulillah @user Sekarang Bukan Admin:v'
   conn.handler = handler.handler
   conn.onDelete = handler.delete
   conn.onParticipantsUpdate = handler.participantsUpdate
@@ -242,3 +261,17 @@ async function _quickTest() {
 _quickTest()
   .then(() => conn.logger.info('Quick Test Done'))
   .catch(console.error)
+// ngok
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
