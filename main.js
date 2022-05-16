@@ -1,22 +1,3 @@
-Skip to content
-VERDIBOTZ1
-/
-pacrituruv3
-Public
-forked from Ipulpachri/fachribotzv3
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-pacrituruv3/main.js
-@VERDIBOTZ1
-VERDIBOTZ1 Update main.js
- 3 contributors
-245 lines (230 sloc)  8.17 KB
 require('./config.js')
 const { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
 const cloudDBAdapter = require('./lib/cloudDBAdapter')
