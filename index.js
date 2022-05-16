@@ -1,16 +1,15 @@
 console.log('Starting...')
-console.log('Jangan Jual Script Ini!')
 let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('Simple\nWhatsApp Bot', {
-  font: 'block',
+CFonts.say('shiro-botz', {
+  font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`'${package.name}' By @${package.author.name || package.author}\nOneBotz V.4.08\nRecode By David`, {
+CFonts.say(`'Haori Chan Is The Best' }\n Hargai Saya Bang Sebagai Creator Haoribotz\n Recode By Zivfurr`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -34,7 +33,7 @@ function start(file) {
     stdio: ['inherit', 'inherit', 'inherit', 'ipc']
   })
   p.on('message', data => {
-    console.log('RECEIVED', data)
+    console.log('[RECEIVED]', data)
     switch (data) {
       case 'reset':
         p.kill()
