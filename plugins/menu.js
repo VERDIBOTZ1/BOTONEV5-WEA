@@ -10,7 +10,7 @@ const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
 ╭══════════════════
-║╭──❉[ *Hai, %name!* ]❉──
+║╭──❉[ *Hai anjg, %name!* ]❉──
 ║│➸ Tersisa *%limit Limit*
 ║│➸ Role *%role*
 ║│➸ Level 
@@ -20,7 +20,7 @@ const defaultMenu = {
 ╰══════════════════
 ╭══════════════════
 ║╭──❉[ 𝙒𝙖𝙠𝙩𝙪 ]❉───
-║│➸ Tanggal: 
+║│➸ Tanggal njg: 
 ║│➸ *%week %weton, %date*
 ║│➸ Tanggal Islam:
 ║│➸ *%dateIslamic*
@@ -34,7 +34,7 @@ const defaultMenu = {
   body: '┃ ☂︎ ⎙ %cmd %islimit %isPremium',
   footer: '┗━ꕥ',
   after: `
-*One Bot V. 4.15 Alpha*
+*VERDIBOTZ. 4.15 Alpha*
 *Colour Your Life*
 `,
 }
@@ -280,7 +280,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".menu News"
                                 }, { 
                                     "title": "☰ Game",
-                                    "description": "Game Di One Botz",
+                                    "description": "Game Di KURANG TURU Botz",
                                     "rowId": ".menu game"
                                 }, { 
                                     "title": "️☰ Epic Rpg",
@@ -292,7 +292,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".menu xp"
                                 }, { 
                                     "title": "☰ NSFW",
-                                    "description": "Lagi Puasa Woy..",
+                                    "description": "MASIH SANGE ANJG..",
                                     "rowId": ".menu nsfw"
                                 }, { 
                                     "title": "️☰ Random Image",
