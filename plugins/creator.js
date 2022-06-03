@@ -8,7 +8,7 @@ remoteJid: 'status@broadcast'
 },
 message: {
 locationMessage: {
-name: 'VERDI_Zz',
+name: 'putra.bokep.bot',
 jpegThumbnail: fs.readFileSync('./src/Dark.jpg')
   }
  }
